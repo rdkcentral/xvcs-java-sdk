@@ -1,0 +1,15 @@
+connection:
+  websocket:
+    url: ws://localhost:8082/vrex/speech/websocket #REQUIRED
+    version: 1 #optional - default: 1
+
+logging:
+  enabled: true #optional - default: true
+  logLevel: DEBUG #optional - default: INFO
+
+app:
+  id: 12345678 #REQUIRED
+
+auth:
+  enabled: true #optional - default: true
+  renewInterval: 720 #REQUIRED (in minutes)

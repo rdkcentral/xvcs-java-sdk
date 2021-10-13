@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+    <Appenders>
+        <Console name="STDOUT" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{DEFAULT} %highlight{%-5level} - %msg%n"/>
+        </Console>
+    </Appenders>
+
+    <Loggers>
+        <AsyncLogger name="com.comcast.vrex.sdk" level="DEBUG" additivity="false">
+            <appender-ref ref="STDOUT"/>
+        </AsyncLogger>
+
+        <AsyncRoot level="INFO">
+            <AppenderRef ref="STDOUT"/>
+        </AsyncRoot>
+    </Loggers>
+</Configuration>

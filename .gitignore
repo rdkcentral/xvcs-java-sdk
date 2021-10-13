@@ -1,0 +1,15 @@
+/demo/target
+/sdk/target
+/test-shared/target
+/auth/target
+/sat/target
+/e2e-test/target
+
+speech-secrets.properties
+/test-shared/src/main/resources/speech-secrets.properties
+/test-shared/src/main/resources/subdir/another-speech-secrets.properties
+
+.DS_Store
+
+.idea
+*.iml

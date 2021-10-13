@@ -1,0 +1,23 @@
+{
+  "roles": [
+    "input",
+    "envoy",
+    "av",
+    "render"
+  ],
+  "capabilities": [
+    "WBW",
+    "UHD",
+    "TEST"
+  ],
+  "language": "eng-USA",
+  "vrexFields": [
+    "executeResponse"
+  ],
+  "vrexModes": [
+    "SR",
+    "NLP",
+    "AR",
+    "EXEC"
+  ]
+}

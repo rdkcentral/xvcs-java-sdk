@@ -1,0 +1,19 @@
+connection:
+  websocket:
+    url: wss://vrex-sandbox-comcast.vrexcore.net/vrex/speech/websocket #REQUIRED
+    #url: ws://localhost:8082/vrex/speech/websocket #REQUIRED
+    version: 1 #optional - default: 1
+
+appId: 12345678 #REQUIRED
+deviceId: 12345 #Optional, but one must be provided either here or in code
+accountId: 12345 #Optional, but one must be provided either here or in code
+#customerId: 12345 #optional
+
+auth:
+  enabled: true #optional - default: true
+  renewInterval: 720 #REQUIRED (in minutes)
+
+logging:
+  enabled: true #optional - default: true
+  logLevel: DEBUG #optional - default: INFO
+
